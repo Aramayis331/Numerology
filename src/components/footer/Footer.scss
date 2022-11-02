@@ -1,0 +1,121 @@
+footer {
+  margin: 55px 0px 48px 0px;
+}
+.footer__center__responisve {
+  display: none;
+}
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.footer__top__button {
+  background: #855e34;
+  border: 1px solid #b69c80;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 10px 28px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer__top__button:hover {
+  opacity: 0.8;
+}
+.footer__bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.footer__bottom__text {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+
+@media (max-width: 1110px) {
+  footer {
+    padding: 0px 25px;
+    margin: 30px 0px 30px 0px;
+  }
+  .footer__center__responisve {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer__top__button__hide {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin: 25px 0px 25px 0px;
+  }
+  .footer__top__logo {
+    width: 90px;
+  }
+  .footer__top__logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer__top__button {
+    padding: 8px 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__center__responisve {
+    margin-bottom: 10px;
+  }
+  .footer__top__logo {
+    display: none;
+  }
+  footer {
+    padding: 0px 10px;
+    margin: 10px 0px 15px 0px;
+  }
+  .footer__bottom__text {
+    font-size: 8px;
+  }
+  .footer__top__button {
+    font-size: 13px;
+    padding: 6px 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__top__button {
+    font-size: 11px;
+    padding: 4px 18px;
+  }
+  .footer__bottom__text {
+    font-size: 6px;
+  }
+}

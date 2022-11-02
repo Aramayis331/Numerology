@@ -1,0 +1,310 @@
+.section__one {
+  position: relative;
+  height: 745px;
+  margin-bottom: 53px;
+}
+.section__one__cart {
+  margin-top: 170px;
+}
+.section__one__cart__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 97px;
+  color: #3e2c1c;
+}
+.section__one__cart__subtTitle {
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 97px;
+  color: #3e2c1c;
+}
+.section__one__cart__help {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #3e2c1c;
+  margin-top: 53px;
+}
+.section__one__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+.section__one__footer__button {
+  background: #855e34;
+  border: 1px solid #b69c80;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 14px 28px;
+  margin-right: 53px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.section__one__footer__button:hover {
+  opacity: 0.8;
+}
+.section__one__footer__button__icon {
+  margin-left: 23px;
+}
+.section__one__footer__telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__one__footer__iconVK {
+  margin-right: 25px;
+}
+.section__one__footer__telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section__one__footer__telegram__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.section__one__background {
+  position: absolute;
+  top: -500px;
+  right: -235px;
+  width: 1357px;
+  height: 1229px;
+  background-color: #f6f1ed;
+  border-radius: 50%;
+  z-index: -1;
+}
+.section__one__background__img {
+  width: 100%;
+  height: 100%;
+  background: url("../../../../assets/sectionOneBackground.png") 50% no-repeat;
+}
+
+@media (max-width: 1275px) {
+  .section__one__background {
+    width: 1277px;
+  }
+}
+@media (max-width: 1110px) {
+  .section__one__background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1136px;
+    height: 1102px;
+  }
+  .section__one__background__img {
+    width: 70%;
+    height: 80%;
+  }
+  .section__one__cart {
+    padding: 0px 25px;
+  }
+}
+@media (max-width: 992px) {
+  .section__one {
+    margin-bottom: unset;
+    height: 570px;
+  }
+  .section__one__background {
+    top: -429px;
+    right: 0;
+    border-radius: unset;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 1000px;
+  }
+  .section__one__cart {
+    background: rgba(255, 255, 255, 0.5);
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: 25px;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+  .section__one__cart__title {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .section__one__cart__subtTitle {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .section__one__background__img {
+    width: 85%;
+  }
+  .section__one__cart__title {
+    font-size: 60px;
+  }
+  .section__one__cart__subtTitle {
+    font-size: 57px;
+  }
+  .section__one__cart__help {
+    font-size: 21px;
+    margin-top: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .section__one {
+    height: 500px;
+  }
+  .section__one__cart__title {
+    font-size: 50px;
+  }
+  .section__one__cart__subtTitle {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .section__one__cart__help {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .section__one__footer__button {
+    padding: 0px 18px;
+    margin-right: 53px;
+  }
+  .section__one__cart {
+    margin: 125px 25px 0px;
+    width: unset;
+  }
+  .section__one__background__img {
+    width: 100%;
+    height: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__one {
+    height: 430px;
+  }
+  .section__one__cart__title {
+    font-size: 35px;
+  }
+  .section__one__cart__subtTitle {
+    font-size: 35px;
+    line-height: 17px;
+  }
+  .section__one__cart__help {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .section__one__cart {
+    margin: 70px 10px 0px;
+    padding: 10px;
+  }
+  .section__one__footer__button {
+    font-size: 12px;
+    padding: 0px 11px;
+    margin-right: 10px;
+  }
+  .section__one__footer__button__icon {
+    margin-left: 10px;
+  }
+  .section__one__footer__telegram__text {
+    font-size: 12px;
+  }
+  .section__one__footer__iconVK {
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+  }
+  .section__one__background {
+    top: -320px;
+    height: 765px;
+  }
+  .section__one__background__img {
+    background-position: 59px 150px;
+    background-repeat: no-repeat;
+    background-size: 500px 480px;
+    background-image: url("../../../../assets/sectionOneBackgroundMobile.png");
+  }
+}
+@media (max-width: 495px) {
+  .section__one__background__img {
+    background-position: 70px 175px;
+    background-size: 410px 400px;
+  }
+}
+@media (max-width: 430px) {
+  .section__one__background__img {
+    background-position: 48px 195px;
+    background-size: 370px 371px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section__one__cart__title {
+    font-size: 32px;
+  }
+  .section__one__cart__subtTitle {
+    font-size: 30px;
+  }
+  .section__one__cart__help {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .section__one__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .section__one__footer__button {
+    padding: 7px 11px;
+    margin-right: unset;
+  }
+  .section__one__footer__telegram {
+    margin-top: 10px;
+  }
+  .section__one__footer__iconVK {
+    margin-right: 14px;
+    width: 30px;
+    height: 30px;
+  }
+  .section__one__footer__telegram__text {
+    font-size: 11px;
+  }
+  .section__one__cart {
+    margin: 35px 10px 0px;
+  }
+  .section__one__background__img {
+    background-position: 12px 136px;
+    background-size: 370px 327px;
+  }
+  .section__one__background {
+    top: -241px;
+    height: 615px;
+  }
+  .section__one {
+    height: 340px;
+  }
+}
+@media (max-width: 350px) {
+  .section__one__background__img {
+    background-position: 19px 143px;
+    background-size: 347px 323px;
+  }
+}
