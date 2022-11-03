@@ -58,82 +58,96 @@
 }
 
 /* slick */
-.slick-prev,
-.slick-next {
-  top: -100px !important;
-  width: 68px !important;
-  height: 68px !important;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-pack: center !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-  -webkit-box-align: center !important;
-  -ms-flex-align: center !important;
-  align-items: center !important;
-  border-radius: 50% !important;
-  border: 1px solid #b69c80 !important;
-  cursor: pointer !important;
-  -webkit-transition: all 0.3s !important;
-  -o-transition: all 0.3s !important;
-  transition: all 0.3s !important;
-}
-.slick-disabled {
-  opacity: 0.25 !important;
-}
-.slick-prev::before,
-.slick-next::before {
-  visibility: hidden !important;
-}
-.slick-prev:hover,
-.slick-prev:focus {
-  background: url("../../../../assets/sectionSevenArrowLeft.png") 50% no-repeat !important;
-  background-color: #ebd9c6 !important;
-}
-.slick-next:hover,
-.slick-next:focus {
-  background: url("../../../../assets/sectionSevenArrowRight.png") 50% no-repeat !important;
-  background-color: #ebd9c6 !important;
-}
-.slick-prev {
-  left: 22% !important;
-  background: url("../../../../assets/sectionSevenArrowLeft.png") 50% no-repeat !important;
-}
-.slick-next {
-  right: 0px !important;
-  left: 29% !important;
-  background: url("../../../../assets/sectionSevenArrowRight.png") 50% no-repeat !important;
+.section__seven {
+  .slider {
+    .slick-prev,
+    .slick-next {
+      top: -100px;
+      width: 68px;
+      height: 68px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 1px solid #b69c80;
+      cursor: pointer;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .slick-disabled {
+      opacity: 0.25;
+    }
+    .slick-prev::before,
+    .slick-next::before {
+      visibility: hidden;
+    }
+    .slick-prev:hover,
+    .slick-prev:focus {
+      background: url("../../../../assets/sectionSevenArrowLeft.png") 50%
+        no-repeat;
+      background-color: #ebd9c6;
+    }
+    .slick-next:hover,
+    .slick-next:focus {
+      background: url("../../../../assets/sectionSevenArrowRight.png") 50%
+        no-repeat;
+      background-color: #ebd9c6;
+    }
+    .slick-prev {
+      left: 22%;
+      background: url("../../../../assets/sectionSevenArrowLeft.png") 50%
+        no-repeat;
+    }
+    .slick-next {
+      right: 0px;
+      left: 29%;
+      background: url("../../../../assets/sectionSevenArrowRight.png") 50%
+        no-repeat;
+    }
+  }
 }
 /* slick */
 
 @media (max-width: 1110px) {
-  .slick-prev,
-  .slick-next {
-    top: -70px !important;
-  }
-  .slick-next {
-    left: 31% !important;
-  }
   .section__seven {
-    padding: 0px 25px;
-  }
-  .slider {
-    margin-top: 45px;
+    .slider {
+      margin-top: 45px;
+      .slick-prev,
+      .slick-next {
+        top: -70px;
+      }
+      .slick-next {
+        left: 31%;
+      }
+      .section__seven {
+        padding: 0px 25px;
+      }
+    }
   }
 }
 
 @media (max-width: 992px) {
-  .slick-prev,
-  .slick-next {
-    width: 60px !important;
-    height: 60px !important;
-  }
-  .slick-prev {
-    left: 25% !important;
-  }
-  .slick-next {
-    left: 35% !important;
+  .section__seven {
+    .slider {
+      .slick-prev,
+      .slick-next {
+        width: 60px;
+        height: 60px;
+      }
+      .slick-prev {
+        left: 25%;
+      }
+      .slick-next {
+        left: 35%;
+      }
+    }
   }
   .section__seven__header__text {
     font-size: 38px;
@@ -141,37 +155,41 @@
 }
 
 @media (max-width: 768px) {
-  .slick-prev,
-  .slick-next {
-    top: -60px !important;
-    width: 50px !important;
-    height: 50px !important;
-  }
   .section__seven {
     margin-top: 55px;
+    .slider {
+      margin-top: 35px;
+      .slick-prev,
+      .slick-next {
+        top: -60px;
+        width: 45px;
+        height: 45px;
+      }
+    }
   }
   .section__seven__header__text {
     font-size: 30px;
   }
-  .slider {
-    margin-top: 35px;
-  }
 }
 
 @media (max-width: 600px) {
-  .slick-prev,
-  .slick-next {
-    top: -50px !important;
-  }
-  .slick-prev {
-    left: 28% !important;
-  }
-  .slick-next {
-    left: 40% !important;
-  }
   .section__seven {
     margin-top: 70px;
     padding: 0px 10px;
+    .slider {
+      margin-top: 25px;
+      padding-bottom: 25px;
+      .slick-prev,
+      .slick-next {
+        top: -50px;
+      }
+      .slick-prev {
+        left: 28%;
+      }
+      .slick-next {
+        left: 40%;
+      }
+    }
   }
   .section__seven__header__text {
     font-size: 25px;
@@ -185,22 +203,17 @@
     -ms-flex-align: center;
     align-items: center;
   }
-  .slider {
-    margin-top: 25px;
-    padding-bottom: 25px;
-  }
 }
 @media (max-width: 495px) {
-  .slick-prev,
-  .slick-next {
-    width: 47px !important;
-    height: 47px !important;
-  }
-  .slick-prev {
-    left: 32% !important;
-  }
-  .slick-next {
-    left: 46% !important;
+  .section__seven {
+    .slider {
+      .slick-prev {
+        left: 32%;
+      }
+      .slick-next {
+        left: 46%;
+      }
+    }
   }
 }
 @media (max-width: 450px) {
@@ -210,33 +223,33 @@
   }
 }
 @media (max-width: 400px) {
-  .slick-prev:hover,
-  .slick-prev:focus,
-  .slick-next:hover,
-  .slick-next:focus {
-    background-size: 20px !important;
-  }
-  .slick-prev,
-  .slick-next {
-    top: -40px !important;
-    background-size: 20px !important;
-    width: 40px !important;
-    height: 40px !important;
-  }
-  .slick-prev {
-    left: 32% !important;
-  }
-  .slick-next {
-    left: 50% !important;
-  }
   .section__seven__header__text {
     font-size: 20px;
   }
   .section__seven {
     margin-top: 55px;
-  }
-  .slider {
-    margin-top: 15px;
-    padding-bottom: 15px;
+    .slider {
+      margin-top: 15px;
+      padding-bottom: 15px;
+      .slick-prev:hover,
+      .slick-prev:focus,
+      .slick-next:hover,
+      .slick-next:focus {
+        background-size: 20px;
+      }
+      .slick-prev,
+      .slick-next {
+        top: -40px;
+        background-size: 20px;
+        width: 40px;
+        height: 40px;
+      }
+      .slick-prev {
+        left: 32%;
+      }
+      .slick-next {
+        left: 50%;
+      }
+    }
   }
 }

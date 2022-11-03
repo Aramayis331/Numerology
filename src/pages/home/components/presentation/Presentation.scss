@@ -1,3 +1,4 @@
+@import "styles/variables";
 .section__one {
   position: relative;
   height: 745px;
@@ -32,8 +33,8 @@
   margin-top: 54px;
 }
 .section__one__footer__button {
-  background: #855e34;
-  border: 1px solid #b69c80;
+  background: $bg-buttons;
+  border: 1px solid $border-buttons;
   border-radius: 7px;
   font-weight: 400;
   font-size: 15px;

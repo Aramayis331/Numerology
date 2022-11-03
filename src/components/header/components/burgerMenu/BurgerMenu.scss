@@ -33,16 +33,14 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-  .menuBurger__nav__close {
-    &__icon {
-      font-size: 25px !important;
-      -webkit-transition: all 0.3s !important;
-      -o-transition: all 0.3s !important;
-      transition: all 0.3s !important;
-      cursor: pointer;
-      &:hover {
-        color: white;
-      }
+  .menuBurger__nav__close .menuBurger__nav__close__icon {
+    font-size: 25px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: white;
     }
   }
   .menuBurger__nav a {

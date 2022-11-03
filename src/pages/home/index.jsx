@@ -5,6 +5,7 @@ import Invitation from "./components/invitation";
 import Weeks from "./components/weeks";
 import Explain from "./components/explain";
 import Сause from "./components/cause";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Weeks />
       <Сause />
       <Reviews />
+      <Outlet />
     </>
   );
 };

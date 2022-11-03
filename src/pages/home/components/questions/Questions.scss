@@ -1,3 +1,4 @@
+@import "styles/variables";
 .section__two {
   position: relative;
   display: -webkit-box;
@@ -66,8 +67,8 @@
   align-items: center;
 }
 .section__two__footer__button {
-  background: #855e34;
-  border: 1px solid #b69c80;
+  background: $bg-buttons;
+  border: 1px solid $border-buttons;
   border-radius: 7px;
   font-weight: 400;
   font-size: 15px;
@@ -416,6 +417,13 @@
   }
 }
 @media (max-width: 600px) {
+  .section__two__right__rowOne__img,
+  .section__two__right__rowThree__img,
+  .section__two__right__rowFour__img {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
   .section__two__left__header__content__title {
     font-size: 30px;
   }
@@ -487,6 +495,13 @@
   }
 }
 @media (max-width: 400px) {
+  .section__two__right__rowOne__img,
+  .section__two__right__rowThree__img,
+  .section__two__right__rowFour__img {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
   .section__two__left__header__content__title {
     font-size: 27px;
   }

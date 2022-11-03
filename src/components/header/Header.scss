@@ -97,10 +97,8 @@ nav {
     cursor: pointer;
     background: transparent;
   }
-  .burger {
-    &__icon {
-      font-size: 40px !important;
-    }
+  .burger .burger__icon {
+    font-size: 55px;
   }
 }
 
@@ -113,11 +111,10 @@ nav {
   }
 }
 @media (max-width: 600px) {
-  .burger {
-    &__icon {
-      font-size: 35px !important;
-    }
+  .burger .burger__icon {
+    font-size: 45px;
   }
+
   .burger__logo img {
     width: 80%;
   }
@@ -141,11 +138,10 @@ nav {
   .burger__logo img {
     width: 70%;
   }
-  .burger {
-    &__icon {
-      font-size: 30px !important;
-    }
+  .burger .burger__icon {
+    font-size: 40px;
   }
+
   .header__link {
     font-size: 9px;
   }

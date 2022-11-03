@@ -1,3 +1,4 @@
+@import "styles/variables";
 .section__four {
   margin-top: 54px;
 }
@@ -42,8 +43,8 @@
   opacity: 0.8;
 }
 .section__four__kurs__button {
-  background: #855e34;
-  border: 1px solid #b69c80;
+  background: $bg-buttons;
+  border: 1px solid $border-buttons;
   border-radius: 7px;
   font-weight: 400;
   font-size: 15px;

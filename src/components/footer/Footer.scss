@@ -1,3 +1,5 @@
+@import "styles/variables";
+
 footer {
   margin: 55px 0px 48px 0px;
 }
@@ -16,8 +18,8 @@ footer {
   align-items: center;
 }
 .footer__top__button {
-  background: #855e34;
-  border: 1px solid #b69c80;
+  background: $bg-buttons;
+  border: 1px solid $border-buttons;
   border-radius: 7px;
   font-weight: 400;
   font-size: 15px;

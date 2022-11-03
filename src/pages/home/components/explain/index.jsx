@@ -2,7 +2,11 @@ import "./Explain.scss";
 import sectionOneArrow from "assets/sectionOneArrow.png";
 import sectionFourImgTwo from "assets/sectionFourImgTwo.png";
 import sectionFourImgOne from "assets/sectionFourImgOne.png";
+import { useNavigate } from "react-router-dom";
 const Explain = () => {
+  const navigate = useNavigate();
+  const openModal = () => navigate("/birth");
+
   return (
     <section className="section__four">
       <div className="section__four__header">
@@ -11,7 +15,7 @@ const Explain = () => {
           дате рождения, пришлёт тебе описание и персональные задания на неделю
         </p>
         <div className="section__four__header__buttons">
-          <button className="section__four__header__button">
+          <button className="section__four__header__button" onClick={openModal}>
             Рассчитать на калькуляторе
           </button>
           <button className="section__four__kurs__button">

@@ -1,3 +1,4 @@
+@import "styles/variables";
 .section__six {
   position: relative;
   margin-top: 100px;
@@ -122,8 +123,8 @@
 }
 .section__six__top__right__item__button {
   width: 303px;
-  background: #855e34;
-  border: 1px solid #b69c80;
+  background: $bg-buttons;
+  border: 1px solid $border-buttons;
   border-radius: 7px;
   font-weight: 400;
   font-size: 15px;

@@ -1,3 +1,4 @@
+@import "styles/variables";
 .section__five {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,7 +38,7 @@
 }
 .section__five__right {
   padding: 45px 0px 52px 52px;
-  background: #f9f9f9;
+  background: $gray;
   border-radius: 100px 0px;
 }
 .section__five__right__text {
