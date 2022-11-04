@@ -51,13 +51,13 @@
       outline: unset;
       cursor: pointer;
       appearance: none;
-      -webkit-appearance: none;
-      &::-webkit-inner-spin-button,
-      &::-webkit-calendar-picker-indicator {
-        display: none;
-        -webkit-appearance: none;
-        appearance: none;
-      }
+      // -webkit-appearance: none;
+      // &::-webkit-inner-spin-button,
+      // &::-webkit-calendar-picker-indicator {
+      //   display: none;
+      //   -webkit-appearance: none;
+      //   appearance: none;
+      // }
       &::-webkit-datetime-edit-day-field:focus {
         background-color: transparent;
         color: white;
