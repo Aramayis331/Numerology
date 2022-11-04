@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./ModalBirth.scss";
 
 const ModalBirth = () => {
-  const [date, setDate] = useState("M8888M/DD/Y888Y9");
+  const [date, setDate] = useState("0000-00-00");
   const navigate = useNavigate();
   console.log(date, "date");
   const handleChange = (newValue) => setDate(newValue);
