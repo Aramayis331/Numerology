@@ -50,9 +50,11 @@
       border-radius: 18px;
       outline: unset;
       cursor: pointer;
-
+      &::-webkit-inner-spin-button,
       &::-webkit-calendar-picker-indicator {
         display: none;
+        -webkit-appearance: none;
+        appearance: none;
       }
       &::-webkit-datetime-edit-day-field:focus {
         background-color: transparent;
