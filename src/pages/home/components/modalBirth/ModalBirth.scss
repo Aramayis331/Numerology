@@ -6,20 +6,23 @@
   @extend %position-element-center;
   max-width: 887px;
   width: 100%;
-  background: #e8d7c5;
+  background-color: #e8d7c5;
+  background-image: url("../../../../assets/modalBirthBackground.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
   border-radius: 50px;
-  padding: 63px 75px;
+  padding: 50px 60px;
   &__title {
     max-width: 597px;
     font-weight: 600;
-    font-size: 58px;
+    font-size: 50px;
     line-height: 70px;
     color: #000000;
   }
   &__subTitle {
-    max-width: 597px;
+    max-width: 540px;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 55px;
     color: #000000;
   }
@@ -36,9 +39,9 @@
     }
     &__date {
       width: 100%;
-      height: 102px;
+      height: 90px;
       font-weight: 700;
-      font-size: 55px;
+      font-size: 50px;
       text-align: center;
       line-height: 67px;
       color: #000000;
@@ -50,6 +53,21 @@
 
       &::-webkit-calendar-picker-indicator {
         display: none;
+      }
+      &::-webkit-datetime-edit-day-field:focus {
+        background-color: transparent;
+        color: white;
+        outline: none;
+      }
+      &::-webkit-datetime-edit-month-field:focus {
+        background-color: transparent;
+        color: white;
+        outline: none;
+      }
+      &::-webkit-datetime-edit-year-field:focus {
+        background-color: transparent;
+        color: white;
+        outline: none;
       }
     }
     &__button {
@@ -65,6 +83,162 @@
       color: #ffffff;
       border-radius: 12px;
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1110px) {
+  .modal__birth {
+    max-width: 840px;
+    padding: 40px 50px;
+    &__title {
+      font-size: 45px;
+    }
+    &__subTitle {
+      max-width: 480px;
+      font-size: 45px;
+    }
+    &__form__date {
+      height: 85px;
+      font-size: 45px;
+    }
+    &__form__title {
+      font-size: 38px;
+    }
+    &__form__button {
+      height: 70px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .modal__birth {
+    width: calc(100% - 50px);
+    padding: 30px;
+    border-radius: 30px;
+    &__title {
+      font-size: 39px;
+    }
+    &__subTitle {
+      font-size: 39px;
+    }
+    &__form__title {
+      margin-top: 25px;
+      font-size: 34px;
+    }
+    &__form__date {
+      height: 73px;
+      font-size: 35px;
+    }
+    &__form__button {
+      height: 60px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .modal__birth {
+    background-image: unset;
+    padding: 20px;
+    &__title {
+      font-size: 30px;
+      line-height: 50px;
+      text-align: center;
+    }
+    &__subTitle {
+      max-width: unset;
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+    }
+    &__form__title {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+    &__form__date {
+      height: 65px;
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .modal__birth {
+    padding: 18px;
+    &__title {
+      font-size: 29px;
+    }
+    &__subTitle {
+      font-size: 27px;
+      line-height: 30px;
+    }
+    &__form__title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+    &__form__date {
+      height: 60px;
+      font-size: 28px;
+    }
+    &__form__button {
+      height: 50px;
+      font-size: 20px;
+      margin-top: 25px;
+    }
+  }
+}
+@media (max-width: 430px) {
+  .modal__birth {
+    width: calc(100% - 30px);
+    &__title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    &__subTitle {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    &__form__title {
+      margin-top: 8px;
+      margin-bottom: 0px;
+      font-size: 22px;
+    }
+    &__form__date {
+      height: 50px;
+      font-size: 24px;
+    }
+    &__form__button {
+      height: 43px;
+      font-size: 18px;
+      margin-top: 22px;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .modal__birth {
+    width: calc(100% - 20px);
+    &__title {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &__subTitle {
+      font-size: 19px;
+      line-height: 23px;
+    }
+    &__form__title {
+      margin-top: 4px;
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+    &__form__date {
+      height: 40px;
+      font-size: 20px;
+    }
+    &__form__button {
+      height: 40px;
+      font-size: 16px;
+      margin-top: 20px;
     }
   }
 }
