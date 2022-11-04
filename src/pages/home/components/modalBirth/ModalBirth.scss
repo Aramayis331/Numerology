@@ -50,19 +50,12 @@
       border-radius: 18px;
       outline: unset;
       cursor: pointer;
-      &::-webkit-inner-spin-button {
-        display: none !important;
-        -webkit-appearance: none !important;
-        appearance: none !important
-        ;
-        opacity: 0 !important;
-      }
+      -webkit-appearance: none;
+      &::-webkit-inner-spin-button,
       &::-webkit-calendar-picker-indicator {
-        display: none !important;
-        -webkit-appearance: none !important;
-        appearance: none !important
-        ;
-        opacity: 0 !important;
+        display: none;
+        -webkit-appearance: none;
+        appearance: none;
       }
       &::-webkit-datetime-edit-day-field:focus {
         background-color: transparent;
