@@ -55,6 +55,7 @@
         display: none;
         -webkit-appearance: none;
         appearance: none;
+        opacity: 0;
       }
       &::-webkit-datetime-edit-day-field:focus {
         background-color: transparent;
