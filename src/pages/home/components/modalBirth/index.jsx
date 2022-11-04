@@ -10,7 +10,7 @@ const ModalBirth = () => {
   return (
     <Modal onClose={closeModal}>
       <div className="modal__birth">
-        <input type="date" name="test" defaultValue="MM/DD/YYYY" />
+        <input type="date" name="test" placeholder="MM/DD/YYYY" />
         <p className="modal__birth__title">Напишите свою дату</p>
         <p className="modal__birth__subTitle">
           рождения и получите первый анализ
@@ -26,7 +26,7 @@ const ModalBirth = () => {
             className="modal__birth__form__date"
             type="date"
             name="birth"
-            defaultValue="MM/DD/YYYY"
+            placeholder="MM/DD/YYYY"
           />
           <button className="modal__birth__form__button" type="submit">
             Отправить
