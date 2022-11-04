@@ -29,21 +29,17 @@ const ModalBirth = () => {
           <TextField
             id="date"
             type="date"
-            defaultValue="2017-05-24"
-            sx={{ width: 220 }}
-            InputLabelProps={{
-              shrink: true,
-            }}
+            format={"DD/MM/YYYY"}
+            className="modal__birth__form__date"
+            onChange={handleChange}
           />
           <input
             className="modal__birth__form__date"
             type="date"
             name="birth"
             date-format="yyyy-mm-dd"
-            onChange={(e) => {
-              console.log(e.target.value);
-            }}
-            value="2015-12-09"
+            onChange={handleChange}
+            value={date}
           />
           <button className="modal__birth__form__button" type="submit">
             Отправить
