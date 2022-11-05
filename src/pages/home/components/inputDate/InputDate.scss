@@ -18,16 +18,7 @@
   outline: unset;
   cursor: pointer;
   appearance: none;
-  -webkit-appearance: none;
-  &::-webkit-datetime-edit {
-    background-color: red;
-    position: relative;
-    width: 100%;
-    color: gray;
-  }
-  &::-webkit-datetime-edit-fields-wrapper {
-    background-color: green;
-  }
+  -webkit-appearance: none; 
   &::-webkit-inner-spin-button,
   &::-webkit-calendar-picker-indicator {
     display: none;
