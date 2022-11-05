@@ -1,0 +1,82 @@
+@import "styles/templates.scss";
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+
+.input__date {
+  @include flex();
+  width: 100%;
+  height: 90px;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  line-height: 67px;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid $border-buttons;
+  border-radius: 18px;
+  outline: unset;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  &::-webkit-inner-spin-button,
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  &::-webkit-datetime-edit-day-field:focus {
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+  &::-webkit-datetime-edit-month-field:focus {
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+  &::-webkit-datetime-edit-year-field:focus {
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+}
+
+@media (max-width: 1110px) {
+  .input__date {
+    height: 85px;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 992px) {
+  .input__date {
+    height: 73px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 740px) {
+  .input__date {
+    height: 65px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .input__date {
+    height: 60px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 430px) {
+  .input__date {
+    height: 50px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 380px) {
+  .input__date {
+    height: 40px;
+    font-size: 20px;
+  }
+}
