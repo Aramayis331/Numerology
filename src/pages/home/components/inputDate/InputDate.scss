@@ -16,8 +16,14 @@
   border-radius: 18px;
   outline: unset;
   cursor: pointer;
-//   appearance: none;
-//   -webkit-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  &::-webkit-datetime-edit {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    color: gray;
+  }
   &::-webkit-inner-spin-button,
   &::-webkit-calendar-picker-indicator {
     display: none;
