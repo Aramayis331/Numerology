@@ -53,7 +53,10 @@
       cursor: pointer;
       appearance: none;
       -webkit-appearance: none;
-      div {
+      &::-webkit-datetime-edit-fields-wrapper {
+        @extend %position-element-center;
+      }
+      &::-webkit-datetime-edit {
         @extend %position-element-center;
       }
       &::-webkit-inner-spin-button,
