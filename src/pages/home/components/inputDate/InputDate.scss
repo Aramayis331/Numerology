@@ -128,35 +128,6 @@ input[type="time"]::-webkit-datetime-edit {
   text-align: center;
   width: 100%;
 }
-.input__date {
-  &::-webkit-datetime-edit {
-    background-color: red;
-    position: relative;
-    width: 100%;
-    color: gray;
-  }
-  &::-webkit-inner-spin-button,
-  &::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-  &::-webkit-datetime-edit-day-field:focus {
-    background-color: transparent;
-    color: white;
-    outline: none;
-  }
-  &::-webkit-datetime-edit-month-field:focus {
-    background-color: transparent;
-    color: white;
-    outline: none;
-  }
-  &::-webkit-datetime-edit-year-field:focus {
-    background-color: transparent;
-    color: white;
-    outline: none;
-  }
-}
 
 @media (max-width: 1110px) {
   .input__date {
