@@ -8,7 +8,6 @@ const ModalBirth = () => {
   const navigate = useNavigate();
   console.log(date, "date");
   const handleChange = (newValue) => setDate(newValue);
-
   const closeModal = () => navigate("/");
 
   return (
@@ -29,9 +28,9 @@ const ModalBirth = () => {
             className="modal__birth__form__date"
             type="date"
             name="birth"
-            placeholder="DD/MM/YYYY"
             onChange={(e) => handleChange(e.target.value)}
             value={date}
+            pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
           />
           <button className="modal__birth__form__button" type="submit">
             Отправить
