@@ -13,6 +13,7 @@ const InputDate = () => {
       onChange={(e) => handleChange(e.target.value)}
       value={date}
       pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      placeholder="DD/MM/YYYY"
     />
   );
 };
