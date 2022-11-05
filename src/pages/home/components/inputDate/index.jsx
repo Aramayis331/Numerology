@@ -1,19 +1,15 @@
-import { useState } from "react";
 import "./InputDate.scss";
 
-const InputDate = () => {
-  const [date, setDate] = useState("DD/MM/YYYY");
-  const handleChange = (newValue) => setDate(newValue);
-  console.log(date.split("-"), "date");
+const InputDate = ({ register }) => {
   return (
     <input
       className="input__date"
       type="date"
-      name="birth"
-      onChange={(e) => handleChange(e.target.value)}
-      value={date}
+      min="1700-12-12"
+      max="5555-12-12"
       pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
       placeholder="DD/MM/YYYY"
+      {...register}
     />
   );
 };

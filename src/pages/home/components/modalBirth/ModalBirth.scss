@@ -51,6 +51,21 @@
       border-radius: 12px;
       cursor: pointer;
     }
+    &__button__disabled {
+      max-width: 286px;
+      opacity: 0.4;
+      width: 100%;
+      height: 73px;
+      margin-top: 34px;
+      background: $bg-dark-buttons;
+      border: 1px solid $bg-dark-buttons;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 29px;
+      color: #ffffff;
+      border-radius: 12px;
+      cursor: pointer;
+    }
   }
 }
 
@@ -69,6 +84,9 @@
       font-size: 38px;
     }
     &__form__button {
+      height: 70px;
+    }
+    &__button__disabled {
       height: 70px;
     }
   }
@@ -90,6 +108,10 @@
       font-size: 34px;
     }
     &__form__button {
+      height: 60px;
+      font-size: 22px;
+    }
+    &__button__disabled {
       height: 60px;
       font-size: 22px;
     }
@@ -137,6 +159,11 @@
       font-size: 20px;
       margin-top: 25px;
     }
+    &__button__disabled {
+      height: 50px;
+      font-size: 20px;
+      margin-top: 25px;
+    }
   }
 }
 @media (max-width: 430px) {
@@ -160,6 +187,11 @@
       font-size: 18px;
       margin-top: 22px;
     }
+    &__button__disabled {
+      height: 43px;
+      font-size: 18px;
+      margin-top: 22px;
+    }
   }
 }
 @media (max-width: 380px) {
@@ -179,6 +211,11 @@
       font-size: 20px;
     }
     &__form__button {
+      height: 40px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    &__button__disabled {
       height: 40px;
       font-size: 16px;
       margin-top: 20px;
