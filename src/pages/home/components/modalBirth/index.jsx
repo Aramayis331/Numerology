@@ -66,6 +66,7 @@ const ModalBirth = () => {
           <InputDate
             register={{
               ...register("birth", {
+                required: true,
                 min: "1700-12-12",
                 max: "5555-12-12",
               }),
