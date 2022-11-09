@@ -7,13 +7,32 @@ const WeeksCalculator = () => {
       <p>{`oneWeek = ${state?.oneWeek}`}</p>
       <p>{`twoWeek = ${state?.twoWeek}`}</p>
       <p>{`threeWeek = ${state?.threeWeek}`}</p>
-      <p>{`fourWeek = ${JSON.stringify(state?.fourWeek)}`}</p>
+      <p>{`fourWeek = {
+       oneTalent = ${state?.fourWeek?.oneTalent}
+       twoTalent = ${state?.fourWeek?.twoTalent}
+       threeTalent = ${state?.fourWeek?.threeTalent}
+      }`}</p>
       <p>{`fiveWeek = ${state?.fiveWeek}`}</p>
       <p>{`sixWeek = ${state?.sixWeek}`}</p>
       <p>{`sevenWeek = ${state?.sevenWeek}`}</p>
-      <p>{`eightWeek = ${JSON.stringify(state?.eightWeek)}`}</p>
-      <p>{`nineWeek = ${JSON.stringify(state?.nineWeek)}`}</p>
-      <p>{`tenWeek = ${JSON.stringify(state?.tenWeek)}`}</p>
+      <p>{`eightWeek = {
+        eightWeekOne = ${state?.eightWeek?.eightWeekOne}
+        eightWeekTwo = ${state?.eightWeek?.eightWeekTwo}
+        eightWeekTree = ${state?.eightWeek?.eightWeekTree}
+      }`}</p>
+      <p>{`nineWeek = {
+        nineWeekOne = ${state?.nineWeek?.nineWeekOne}
+        nineWeekTwo = ${state?.nineWeek?.nineWeekTwo}
+        nineWeekTree = ${state?.nineWeek?.nineWeekTree}
+      }`}</p>
+      <p>{`tenWeek = {
+        tenWeekOne = ${state?.tenWeek?.tenWeekOne}
+        tenWeekTwo = ${state?.tenWeek?.tenWeekTwo}
+        tenWeekTree = ${state?.tenWeek?.tenWeekTree}
+        tenWeekFour = ${state?.tenWeek?.tenWeekFour}
+        tenWeekFiv = ${state?.tenWeek?.tenWeekFiv}
+        tenWeekSix = ${state?.tenWeek?.tenWeekSix}
+      }`}</p>
     </div>
   );
 };
