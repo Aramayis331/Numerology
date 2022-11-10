@@ -217,7 +217,7 @@ const ModalBirth = () => {
       tenWeekFiv = Number(tenWeekFiv[0]) + Number(tenWeekFiv[1]);
     }
     tenWeekSix = Number(tenWeekFour) + Number(tenWeekFiv);
-    if (tenWeekFiv > 22) {
+    if (tenWeekSix > 22) {
       tenWeekSix = tenWeekSix.toString();
       tenWeekSix = Number(tenWeekSix[0]) + Number(tenWeekSix[1]);
     }
