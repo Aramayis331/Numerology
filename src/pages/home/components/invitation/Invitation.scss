@@ -248,7 +248,8 @@
     background: rgba(217, 217, 217, 0.16);
     margin-top: 20px;
     border-radius: 10px;
-    font-size: 11px;
+    font-size: 13px;
+    line-height: 20px;
     padding: 0px 10px;
   }
 }
@@ -279,7 +280,7 @@
   }
   .section__three__container__text {
     line-height: 16px;
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 @media (max-width: 350px) {

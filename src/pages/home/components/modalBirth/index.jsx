@@ -243,20 +243,6 @@ const ModalBirth = () => {
         tenWeek,
       },
     });
-    // alert(
-    //   `
-    //   oneWeek = ${oneWeek}
-    //   twoWeek = ${twoWeek}
-    //   threeWeek = ${threeWeek}
-    //   fourWeek = ${JSON.stringify(fourWeek)}
-    //   fiveWeek = ${fiveWeek}
-    //   sixWeek = ${sixWeek}
-    //   sevenWeek = ${sevenWeek}
-    //   eightWeek = ${JSON.stringify(eightWeek)}
-    //   nineWeek = ${JSON.stringify(nineWeek)}
-    //   tenWeek = ${JSON.stringify(tenWeek)}
-    //   `
-    // );
   };
 
   return (
